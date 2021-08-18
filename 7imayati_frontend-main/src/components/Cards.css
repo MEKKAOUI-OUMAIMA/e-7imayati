@@ -1,0 +1,347 @@
+.cards {
+  padding: 4rem;
+  background: #0A7DCD;
+}
+
+h1 {
+  text-align: left;
+  color: #fff;
+
+}
+.hero-title1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 65px;
+/* or 270% */
+
+color: #FFFFFF;
+}
+.hero-paraph1{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+/* or 217% */
+
+color: #FFFFFF;
+left:-150px;
+position:relative;
+margin-left:80px;
+height: 100px;
+
+}
+.hero-title2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 65px;
+  /* or 270% */
+  position: relative;
+  color: #FFFFFF;
+  left:-80px;
+}
+.hero-paraph2{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+/* or 217% */
+position: relative;
+left:-160px;
+top:0px;
+color: #FFFFFF;
+margin-left:80px;
+height: 100px;
+
+}
+.hero-title3{
+ /* Action Inspirante */
+
+position: absolute;
+width: 303.53px;
+height: 63.45px;
+left: 840px;
+top: 180px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 65px;
+/* or 270% */
+
+color: #FFFFFF;
+
+}
+.hero-paraph3{
+  position: absolute;
+  width: 303.53px;
+  height: 203.41px;
+  left: 800px;
+  top: 260px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 217% */
+  
+  color: #FFFFFF;
+
+}
+
+.cards__container {
+  flex-flow: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+ .cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  
+} 
+
+.cards__items {
+  margin-bottom: 24px; 
+}  
+
+.cards__item {
+ /* display: flex; */
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 1000px;
+} 
+.cards__item__link {
+  display: flex; 
+  flex-flow: column;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+} 
+ 
+ .cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+  top: -200px;
+}
+/*.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+} */
+
+/*.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  /* box-sizing: border-box;
+} 
+
+ .cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+ /* transition: all 0.2s linear; 
+} 
+
+/*.cards__item__img:hover {
+  transform: scale(1.1);
+} */
+
+/*.cards__item__info {
+  padding: 20px 30px 30px;
+}*/
+.cards__item__text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  top:-150px;
+} 
+
+  @media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+} 
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .cards{
+position: absolute;
+width: 400px;
+height: 1510px;
+left: -10px;
+top: 650px;
+
+background: #0A7DCD;
+border-radius: 1px;
+  }
+.poumon{
+position: absolute;
+width: 162px;
+height: 162px;
+left: 20px;
+top: 0px;
+}
+.sensibilisation{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 20px;
+  top: 400px;
+}
+.Action{
+position: absolute;
+width: 165px;
+height: 165px;
+left: 30px;
+top: 800px;
+}
+.hero-title1{
+  /* Qualité de l'air */
+
+position: absolute;
+width: 176px;
+height: 66px;
+left: 20px;
+top: 150px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24.1188px;
+line-height: 65px;
+/* identical to box height, or 270% */
+
+color: #FFFFFF;
+
+
+}
+.hero-title2{
+  position: absolute;
+width: 275px;
+height: 65px;
+left: -20px;
+top: 580px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 65px;
+/* identical to box height, or 324% */
+color: #FFFFFF;
+}
+.hero-paraph1{
+  /* La pollution de l’air est un problème environnemental majeur, qui a, en outre, un impact important sur le climat à l'échelle globale. Selon les chiffres 2016 de la Banque mondiale : la mauvaise qualité de l’air est le quatrième facteur de décès prématuré sur Terre. */
+
+position: absolute;
+width: 246.45px;
+height: 165.16px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11.3675px;
+line-height: 25px;
+/* or 217% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+left: -90px;
+top: 200px;
+}
+.hero-paraph2{
+  position: absolute;
+width: 246.45px;
+height: 165.16px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 11.3675px;
+line-height: 25px;
+/* or 217% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+left: -90px;
+top: 630px;
+  
+}
+.hero-title3{
+position: absolute;
+width: 275px;
+height: 65px;
+left: 20px;
+top: 970px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 65px;
+/* identical to box height, or 324% */
+color: #FFFFFF;
+}
+.hero-paraph3{
+  position: absolute;
+  width: 246.45px;
+  height: 165.16px;
+  
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.3675px;
+  line-height: 25px;
+  /* or 217% */
+  text-align: center;
+  
+  color: #FFFFFF;
+  left: -10px;
+  top: 1030px;
+}
+}
+

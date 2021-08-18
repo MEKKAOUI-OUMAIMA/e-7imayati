@@ -1,0 +1,22 @@
+[{  "id": 1,
+    "city": "Rabat",
+    "airquality": 81,
+    "CO": 692,
+    "H": 601,
+    "LPG": 99,
+    "T": 19,
+    "smoke": 95,
+    "latitude":33.9546013,
+    "longitude": -6.8682643
+  }, {
+    "id": 2,
+    "city": "Rabat",
+    "airquality": 6,
+    "CO": 8000,
+    "H": 620,
+    "LPG": 38,
+    "T": 45,
+    "smoke": 26,
+    "latitude": 33.9537654,
+    "longitude": -6.8663237
+  }]

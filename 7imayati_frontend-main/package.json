@@ -1,0 +1,44 @@
+{
+  "name": "7imayati",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-firebase/database": "^0.3.11",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.0.2",
+    "bulma": "^0.9.3",
+    "firebase": "^8.9.1",
+    "leaflet": "^1.7.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-leaflet": "^3.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

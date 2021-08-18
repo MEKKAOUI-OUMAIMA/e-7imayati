@@ -1,0 +1,247 @@
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+@import "~bulma/sass/utilities/initial-variables";
+
+$primary: #0a7dcd;
+$primary-light: #9bd0f5;
+$input-color: $primary;
+$input-border-color: $primary-light;
+$input-icon-color: $primary-light;
+$input-icon-active-color: $primary;
+$input-hover-color: $primary;
+$input-hover-border-color: $primary;
+$input-focus-color: $primary;
+$input-focus-border-color: $primary;
+
+@import "~bulma/bulma";
+
+$font-family-sans-serif: "Poppins", sans-serif;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+header {
+  background: linear-gradient(180deg, #cce1f0 0%, rgba(255, 255, 255, 0) 100%);
+}
+legend {
+  color: $dark;
+  font-weight: bolder;
+}
+hr {
+  width: 18px;
+  background-color: $primary;
+  border: 2px solid $primary;
+  margin: 1rem auto;
+  opacity: 1;
+}
+.td-none {
+  text-decoration: none;
+}
+
+.leaflet-container {
+  width: 100wh;
+  height: 100vh;
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.float-child {
+  width: auto;
+  padding: 5px;
+  border: 1px;
+  text-align: center;
+}
+
+.leaflet-popup-content {
+  width: 40rem !important;
+}
+
+#gradientlightgreen {
+  height: auto;
+  width: auto;
+  border-radius: 200%;
+  background: linear-gradient(100deg, #ffffff, rgb(0, 209, 0));
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+#gradientgreen {
+  height: auto;
+  width: auto;
+  border-radius: 200%;
+  background: linear-gradient(100deg, #ffffff, green);
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+#gradientred {
+  height: auto;
+  width: auto;
+  border-radius: 200%;
+  background: linear-gradient(100deg, #ffffff, red);
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+#gradientcrimsonred {
+  height: auto;
+  width: auto;
+  border-radius: 200%;
+  background: linear-gradient(100deg, #e70909, rgb(70, 1, 1));
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+#gradientyellow {
+  height: auto;
+  width: auto;
+  border-radius: 200%;
+  background: linear-gradient(100deg, #ffffff, yellow);
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+#gradientblue {
+  height: auto;
+  width: auto;
+  border-radius: 200%;
+  background: linear-gradient(100deg, #ffffff, #0a7dcd);
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@-moz-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+
+.textsymbol {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: white;
+}
+
+.themebluebackground {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #0a7dcd;
+}
+
+.iconthemebluebackground {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  // width: 40px; height: 40px;
+  width: 8rem;
+  height: 7rem;
+  border-radius: 100%;
+  background: #0a7dcd;
+  margin-right: 0.3rem;
+}
+.select {
+  height: 4rem !important;
+  margin: auto;
+}
+
+.nav-link{
+  color: $primary !important;
+  margin: auto 3rem;
+  font-weight: bolder;
+  &:hover{
+    text-decoration: underline;
+  }
+}
