@@ -254,3 +254,119 @@ hr.propos {
   border-radius: 1px;
   }
   
+  @media screen and (max-width: 960px) {
+    .hero-container > h3 {
+      position: absolute;
+      width: 317.91px;
+      height: 114.09px;
+      left: 28px;
+      top: 0px;
+      
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10.8505px;
+      line-height: 22px;
+      /* or 201% */
+      
+      color: #0578C8;
+      }
+  
+    .hero-container > p {
+      position: absolute;
+      width: 329.13px;
+      height: 83.79px;
+      left: 27px;
+      top: 106px;
+      
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 45px;
+      /* or 130% */
+      
+      color: #0A7DCD;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+    .sec{
+      margin-top: -40px;
+      width: 300px;
+      height: 300px;
+      left: 0px;
+    }
+    .map{
+    margin-top:250px;
+    top:60px;
+    margin-left:-60px;
+    width: 400px;
+    height: 200px;
+    left: 0px;
+     }
+   }
+   @media screen and (max-width: 1080px) {
+    .hero-container > h3 {
+      position: absolute;
+      width: 317.91px;
+      height: 114.09px;
+      left: 28px;
+      top: 209px;
+      
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10.8505px;
+      line-height: 22px;
+      /* or 201% */
+      
+      color: #0578C8;
+      }
+  
+    .hero-container > p {
+      position: absolute;
+      width: 329.13px;
+      height: 83.79px;
+      left: 27px;
+      top: 106px;
+      
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 45px;
+      /* or 130% */
+      
+      color: #0A7DCD;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+    .sec{
+      margin-top: -40px;
+      width: 300px;
+      height: 300px;
+      left: 0px;
+    }
+    .map{
+    margin-top:250px;
+    top:60px;
+    margin-left:-60px;
+    width: 400px;
+    height: 200px;
+    left: 0px;
+     }
+   }

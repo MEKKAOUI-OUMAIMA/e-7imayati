@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Browse from "./pages/Browse";
 import Data from "./pages/Data";
 import FAQ from "./pages/FAQ";
+import Research from "./pages/research";
 import { Home, Login, Register, NotFoundPage } from "./pages/index";
 import Map from "./pages/Map";
 
@@ -31,6 +32,7 @@ const App = () => {
             <Route exact path="/browse" component={Browse} />
             <Route exact path="/about" component={About} />
             <Route exact path="/Faq" component={FAQ} />
+            <Route exact path="/Research" component={Research}/>
             <Redirect to="/404" />
           </Switch>
         </Router>
