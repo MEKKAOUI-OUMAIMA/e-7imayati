@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import HeaderLogo from "../assets/img/headerlogo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 
 function Footer() {
@@ -12,11 +13,10 @@ function Footer() {
           <div className="container-fluid text-center text-md-left">
             <div className="row">
               <div className="col-md-6 mt-md-0 mt-3">
-                <h5 className="text-uppercase">Footer Content</h5>
-                <p>
-                  Here you can use rows and columns to organize your footer
-                  content.
-                </p>
+              <img className="group-13" src={HeaderLogo} 
+        width="177vw" height="51vh"/>
+                <h5 className="text-uppercase color">Projet développé dans le cadre du programme Orange Digital Center pour l'innovation technologique et sociale.</h5>
+                
               </div>
 
               <hr className="clearfix w-100 d-md-none pb-0" />
@@ -60,8 +60,7 @@ function Footer() {
           </div>
 
           <div className="footer-copyright text-center py-3">
-            © 2020 Copyright:
-            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+          ©2021 e-7imayati.
           </div>
         </footer>
       </Col>

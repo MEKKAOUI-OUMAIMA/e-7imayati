@@ -79,12 +79,13 @@ height: 566px;
 .hero-btn {
   width: 183px;
   height: 63px;
+  margin-left:65px;
   color: #ffffff;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 350px;
+  margin-top: 250px;
 }
 .hero-btn:hover {
   width: 183px;
@@ -111,7 +112,7 @@ height: 566px;
     margin-top: 250px;
     top: 60px;
     margin-left: -60px;
-    width: 400px;
+    width: 300px;
     height: 200px;
     left: 0px;
   } 
@@ -171,7 +172,8 @@ height: 566px;
       color: #0a7dcd;
     }
     p {
-      font-size: 18px;
+      font-size: 14px;
+      width: 440px;;
       /* or 140% */
       text-align: justify;
 
@@ -182,10 +184,10 @@ height: 566px;
     margin: 22rem auto;
     
 position: absolute;
-width: 945px;
+width: 800px;
 height: 566px;
-left: 200px;
-top: -140px;
+left: 300px;
+top: -200px;
 }
 }
 /** À propos **/
@@ -204,7 +206,7 @@ hr.propos {
 
 
 .hero-btns {
-  margin-top: 60px;
+  margin-top: 40px;
    
 }
 .hero-btns .btn {
@@ -370,3 +372,19 @@ hr.propos {
     left: 0px;
      }
    }
+
+.text-uppercase {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 253% */
+  
+  color: #0578C8;
+}
+
+.footer-copyright{
+  color: #0578C8;
+
+}  
